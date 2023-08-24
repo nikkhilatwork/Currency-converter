@@ -1,0 +1,109 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,300&family=Fira+Sans:wght@200&family=PT+Sans:ital@0;1&family=Poppins:ital,wght@0,200;0,300;0,400;1,300;1,800&family=Roboto:ital,wght@0,300;1,100&display=swap'); */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  min-height: 100vh;
+ /* font-family: 'Roboto', sans-serif; */
+ background: rgb(251, 225, 252);
+ margin: auto;
+ max-width: 80vw;
+}
+
+.container h1{
+    margin: 23px 0;
+}
+.container  h1,h2{
+    margin: 23px 0;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container form input{
+    background:rgb(226, 228, 229);
+}
+
+.container form input[type='number'], select, label{
+    font-size: 25px;
+    width: 23vw;
+    margin-bottom: 23px;
+}
+
+.container form  label {
+    font-size: 25px;
+
+    
+    
+}
+nav{
+    /* font-family: 'poppins'sans-serif; */
+    font-weight: 900px;
+    display: flex;
+    font-size: 20px;
+    background-color:  #f2d5f5;
+    padding: 23px;
+
+
+}
+
+nav li a{
+    text-decoration: none;
+    color:black;
+    transition: all;
+    transition-duration: 600ms;
+    
+}
+
+nav li a:hover{
+    text-decoration: none;
+    color: rgb(84, 1, 192);
+
+}
+
+
+div.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 23px;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.btn{
+    width: 144px;
+    padding: 5px 8px;
+    font-size: 20px;
+    background:rgb(14 1 1 / 94%);
+    color:  #ece2e7;
+    border-radius: 13px;
+    cursor: pointer;
+
+}
+
+.output{
+    /* display: none; */
+}
+
+.output table{
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+footer {
+  text-align: center;
+}
